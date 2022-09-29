@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeMenu"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_movie_24"
+        android:textColor="@color/material_on_primary_emphasis_high_type"
+        android:title="@string/movies" />
+
+
+    <item
+        android:id="@+id/popularFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_tv"
+        android:title="@string/popular" />
+
+
+   <item
+       android:id="@+id/nowPlayingFragment"
+       android:title="@string/now_playing"
+       android:icon="@drawable/ic_baseline_movie_24"/>
+
+</menu>
